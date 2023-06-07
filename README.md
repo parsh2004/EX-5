@@ -1,12 +1,12 @@
 # EX-5 IMPLEMENTATION OF REVERSE ADDRESS RESOLUTION PROTOCOL ( RARP )
 
-DATE : 06-04-2023
+DATE : 03-04-2023
 
-AIM :
+# AIM :
 
 To write a python program for simulating RARP protocols using UDP
 
-ALGORITHM :
+# ALGORITHM :
 
 Client
 1. Start the program
@@ -21,7 +21,7 @@ Server
 3. Read the MAC address which is send by the client.
 4. Map the IP address with its MAC address and return the IP address to client.
 
-PROGRAM :
+# PROGRAM :
 ```
 Developed by: Parshwanath M
 Register Number: 212221230073
@@ -53,10 +53,10 @@ while True:
  print("Logical Address",s.recv(1024).decode())
 ```
 
-OUTPUT :
+# OUTPUT :
 
 ![##5](https://github.com/parsh2004/EX-5/assets/95388047/120b9698-8b4d-48a7-bebf-461f60de53a3)
 
-RESULT :
+# RESULT :
 
  Thus, python program for simulating RARP protocols using UDP was successfully executed.
